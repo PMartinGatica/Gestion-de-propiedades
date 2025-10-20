@@ -1,6 +1,8 @@
+import { config } from '../config';
+
 // IMPORTANTE: Google Apps Script tiene limitaciones CORS
-// Usamos fetch con mode: 'no-cors' para desarrollo local
-const API_URL = import.meta.env.VITE_API_URL || 'YOUR_GOOGLE_APPS_SCRIPT_URL';
+// Usamos fetch para comunicarnos con Google Apps Script
+const API_URL = config.apiUrl;
 
 /**
  * Función auxiliar para hacer peticiones GET a Google Apps Script

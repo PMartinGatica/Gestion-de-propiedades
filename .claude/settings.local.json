@@ -11,7 +11,9 @@
       "Bash(git config user.name \"PMartinGatica\")",
       "Bash(git config user.email \"pablomartin.gatica@example.com\")",
       "Bash(git add .)",
-      "Bash(git commit -m \"Initial commit - Sistema de gestión de propiedades Booking\n\n- Implementación de frontend con React + Vite\n- Integración con Google Apps Script como backend\n- Panel de administración con CRUD de movimientos\n- Vista de propietarios (Ricardo/Fernanda)\n- Cálculos automáticos de comisiones y distribución\n- Filtrado por estado de pago\n- Sistema de autenticación básico\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")"
+      "Bash(git commit -m \"Initial commit - Sistema de gestión de propiedades Booking\n\n- Implementación de frontend con React + Vite\n- Integración con Google Apps Script como backend\n- Panel de administración con CRUD de movimientos\n- Vista de propietarios (Ricardo/Fernanda)\n- Cálculos automáticos de comisiones y distribución\n- Filtrado por estado de pago\n- Sistema de autenticación básico\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")",
+      "Bash(git push -u origin main)",
+      "Bash(git commit -m \"Fix: Agregar configuración con fallback para URL de API\n\n- Creado archivo config.js con URL de Google Apps Script\n- Actualizado api.js para usar la configuración\n- Soluciona problema de despliegue en Netlify cuando falta variable de entorno\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")"
     ],
     "deny": [],
     "ask": []
