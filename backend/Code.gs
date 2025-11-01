@@ -214,9 +214,24 @@ function formatDateToISO(dateValue) {
 
 /**
  * Parsear fecha ISO a Date object para Google Sheets
+ * Solución al problema de zona horaria: parseamos la fecha en zona horaria local
  */
 function parseDate(dateString) {
   if (!dateString) return '';
+
+  // Si viene en formato ISO (YYYY-MM-DD), parseamos manualmente
+  // para evitar el problema de zona horaria
+  const parts = dateString.split('-');
+  if (parts.length === 3) {
+    const year = parseInt(parts[0]);
+    const month = parseInt(parts[1]) - 1; // Los meses en JavaScript van de 0-11
+    const day = parseInt(parts[2]);
+
+    // Crear fecha en zona horaria local de Google Apps Script
+    return new Date(year, month, day);
+  }
+
+  // Fallback al comportamiento anterior por si acaso
   return new Date(dateString);
 }
 
