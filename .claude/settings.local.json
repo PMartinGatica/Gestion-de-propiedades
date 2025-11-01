@@ -13,7 +13,9 @@
       "Bash(git add .)",
       "Bash(git commit -m \"Initial commit - Sistema de gestión de propiedades Booking\n\n- Implementación de frontend con React + Vite\n- Integración con Google Apps Script como backend\n- Panel de administración con CRUD de movimientos\n- Vista de propietarios (Ricardo/Fernanda)\n- Cálculos automáticos de comisiones y distribución\n- Filtrado por estado de pago\n- Sistema de autenticación básico\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")",
       "Bash(git push -u origin main)",
-      "Bash(git commit -m \"Fix: Agregar configuración con fallback para URL de API\n\n- Creado archivo config.js con URL de Google Apps Script\n- Actualizado api.js para usar la configuración\n- Soluciona problema de despliegue en Netlify cuando falta variable de entorno\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")"
+      "Bash(git commit -m \"Fix: Agregar configuración con fallback para URL de API\n\n- Creado archivo config.js con URL de Google Apps Script\n- Actualizado api.js para usar la configuración\n- Soluciona problema de despliegue en Netlify cuando falta variable de entorno\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")",
+      "Bash(git commit -m \"$(cat <<''EOF''\nFix: Corrección de zona horaria en fechas y configuración de SPA\n\n- Actualizada URL de Google Apps Script con fix de zona horaria\n- Agregado netlify.toml para manejar rutas SPA correctamente\n- Solucionado error 404 al refrescar página en /admin\n- Corregido desfase de fechas (check-in/check-out mostraban 1 día antes)\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push)"
     ],
     "deny": [],
     "ask": []
